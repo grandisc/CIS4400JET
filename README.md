@@ -8,11 +8,49 @@ Conflicts of interests can be created when doctors are also stakeholders in thei
 3. transform_load.py - This script pulls the data from the Google Cloud Bucket, Transforms it/cleans it up so that it fits our data model, and then it is pushed into our data warehouse tables
 ## Data
 (insert - Flow chart with files and how they are connected to our data warehouses)
-### Tool Key
-- Storage 
-- Scripts (create.py, extract.py, transform_load.py)
-- Dimensional Model
-- Visualization
+# Tools and Technologies
+
+This project utilizes a range of tools and technologies, primarily focused around Python and Google Cloud services. Below is a list of key tools and libraries used:
+
+## Python
+
+- **Description**: A high-level, interpreted programming language known for its ease of use and readability.
+- **Usage**: The primary programming language used for writing the ETL scripts (`extract.py`, `transform_load.py`, `create.py`).
+
+## Google Cloud
+
+- **Description**: A suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products.
+- **Usage**: Provides the cloud infrastructure for data storage (Google Cloud Storage) and data warehousing (Google Cloud BigQuery).
+
+## Python Libraries
+
+### Pandas
+
+- **Description**: An open-source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools.
+- **Usage**: Used for data manipulation and analysis.
+
+### Numpy
+
+- **Description**: A library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions.
+- **Usage**: Used for handling numerical data and calculations.
+
+### Google Cloud Libraries
+
+- **Description**: Libraries provided by Google for interacting with Google Cloud services.
+- **Usage**: Used to interact with Google Cloud Storage and Google Cloud BigQuery.
+
+### OS
+
+- **Description**: A standard Python library that provides a way of using operating system dependent functionality.
+- **Usage**: Used for handling file and directory operations.
+
+### BigQuery Libraries
+
+- **Description**: Libraries specifically designed to interact with Google BigQuery, enabling SQL-like queries.
+- **Usage**: Used to manage and query data in Google Cloud BigQuery.
+
+This list is not exhaustive but covers the primary tools and libraries utilized in the ETL process.
+
 # ETL Methodology
 
 This document outlines the ETL (Extract, Transform, Load) process designed for handling data using Google Cloud services. The process is divided into three main steps:
