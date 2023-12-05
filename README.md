@@ -18,6 +18,8 @@ Handled by `extract.py`, this script:
 The `transform_load.py` script:
 - Retrieves data from the Google Cloud Storage Bucket.
 - Cleans and transforms the data to align with our data model.
+  ![image](https://github.com/grandisc/CIS4400JET/assets/121201630/bbfca10e-bc1b-489a-a29c-3ff839d32198)
+
 
 ### 3. Loading the Data
 Conducted through `transform_load.py`, this final step:
