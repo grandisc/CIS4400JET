@@ -6,6 +6,9 @@ This analysis focuses on potential conflicts of interest arising when doctors ho
 ## Data Overview
 (Insert a flow chart here to illustrate how files are connected to our data warehouses.)
 
+## Data Model
+(Insert or describe your data model here. Include details such as the structure of your database, the relationships between different data entities, and any key considerations that influenced the design of your data model.)
+
 ## ETL Methodology
 Our ETL (Extract, Transform, Load) process, leveraging Google Cloud services, is divided into three primary steps:
 
@@ -18,8 +21,6 @@ Handled by `extract.py`, this script:
 The `transform_load.py` script:
 - Retrieves data from the Google Cloud Storage Bucket.
 - Cleans and transforms the data to align with our data model.
-  ![image](https://github.com/grandisc/CIS4400JET/assets/121201630/bbfca10e-bc1b-489a-a29c-3ff839d32198)
-
 
 ### 3. Loading the Data
 Conducted through `transform_load.py`, this final step:
@@ -72,3 +73,6 @@ Our project extensively uses Python and Google Cloud services. Below is a breakd
 - **Usage**: Manages and queries data within Google Cloud BigQuery.
 
 (Note: This is a representative list, highlighting primary tools and libraries used in the ETL process.)
+
+## Final Dashboard
+(Insert or describe your final dashboard here. Include information about how it visualizes the data, any key insights it provides, and how it supports the analysis of conflicts of interest in healthcare. You may also want to add screenshots or links to the dashboard if available.)
