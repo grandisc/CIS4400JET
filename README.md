@@ -4,6 +4,7 @@
 This analysis focuses on potential conflicts of interest arising when doctors hold stakeholder positions in their healthcare companies. We aim to assess the transparency of Open Payments data in this context.
 
 ## Data Overview
+The data we used came from a large data set called open payments 
 (Insert a flow chart here to illustrate how files are connected to our data warehouses.)
 
 ## Data Model
@@ -21,6 +22,8 @@ Handled by `extract.py`, this script:
 The `transform_load.py` script:
 - Retrieves data from the Google Cloud Storage Bucket.
 - Cleans and transforms the data to align with our data model.
+  ![image](https://github.com/grandisc/CIS4400JET/assets/121201630/ac3610f3-fe35-437f-b231-cafc52a8bb1e)
+
 
 ### 3. Loading the Data
 Conducted through `transform_load.py`, this final step:
