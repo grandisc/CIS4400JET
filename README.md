@@ -76,4 +76,5 @@ Our project extensively uses Python and Google Cloud services. Below is a breakd
 (Note: This is a representative list, highlighting primary tools and libraries used in the ETL process.)
 
 ## Final Dashboard
-(Insert or describe your final dashboard here. Include information about how it visualizes the data, any key insights it provides, and how it supports the analysis of conflicts of interest in healthcare. You may also want to add screenshots or links to the dashboard if available.)
+<img width="980" alt="Screenshot 2023-12-05 at 6 45 35 PM" src="https://github.com/grandisc/CIS4400JET/assets/71566775/20822519-a22f-45ea-8170-542666b8d70c">
+
