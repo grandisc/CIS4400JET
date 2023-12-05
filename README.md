@@ -4,8 +4,7 @@
 This analysis focuses on potential conflicts of interest arising when doctors hold stakeholder positions in their healthcare companies. We aim to assess the transparency of Open Payments data in this context.
 
 ## Data Overview
-The data we used came from a large data set called open payments 
-(Insert a flow chart here to illustrate how files are connected to our data warehouses.)
+<img width="865" alt="MicrosoftTeams-image" src="https://github.com/grandisc/CIS4400JET/assets/71566775/bd3ce393-7bf9-4f36-b7b1-faeb9eca7cdd">
 
 ## Data Model
 (Insert or describe your data model here. Include details such as the structure of your database, the relationships between different data entities, and any key considerations that influenced the design of your data model.)
@@ -24,7 +23,6 @@ The `transform_load.py` script:
 - Cleans and transforms the data to align with our data model.
   ![image](https://github.com/grandisc/CIS4400JET/assets/121201630/ac3610f3-fe35-437f-b231-cafc52a8bb1e)
 
-
 ### 3. Loading the Data
 Conducted through `transform_load.py`, this final step:
 - Loads the transformed data into the BigQuery Tables within the Google Cloud BigQuery Data Warehouse.
@@ -41,7 +39,7 @@ The `create.py` script establishes the necessary infrastructure:
 - Utilizes Google Cloud libraries in Python, akin to API functions.
 
 ### ETL Process Diagram
-(Insert ETL process flow diagram here.)
+![Blank board](https://github.com/grandisc/CIS4400JET/assets/71566775/e58e8d6e-5c67-47e7-b0a4-48db0d07d853)
 
 ## Tools and Technologies
 Our project extensively uses Python and Google Cloud services. Below is a breakdown of the key tools and libraries:
