@@ -13,11 +13,42 @@ Conflicts of interests can be created when doctors are also stakeholders in thei
 - Scripts (create.py, extract.py, transform_load.py)
 - Dimensional Model
 - Visualization
-## ETL Methodology
+# ETL Methodology
 
-### 1. Extracting the Data
- 
-### 2. Transforming the Data
+This document outlines the ETL (Extract, Transform, Load) process designed for handling data using Google Cloud services. The process is divided into three main steps:
 
-### 3. Loading the Data
+## 1. Extracting the Data
+
+The extraction process is handled by the `extract.py` script. This script is responsible for:
+
+- Accessing a folder of data (CSV files).
+- The data is sourced from [Data Source Website](insert-website-link-here).
+- Uploading the data to the Google Cloud Storage Bucket.
+
+## 2. Transforming the Data
+
+Transformation of data occurs in the `transform_load.py` script, which:
+
+- Retrieves data from the Google Cloud Storage Bucket.
+- Performs necessary cleaning and transformations to align with the data model.
+
+## 3. Loading the Data
+
+The final step of the ETL process, also part of the `transform_load.py` script, involves:
+
+- Loading the transformed data into the BigQuery Tables within the Google Cloud BigQuery Data Warehouse.
+
+## Infrastructure Setup
+
+The `create.py` script is used to set up the required infrastructure:
+
+- Creates the Google Cloud Storage Bucket.
+- Establishes the Google Cloud BigQuery Data Warehouse.
+- Generates the BigQuery Tables within the Data Warehouse.
+- This setup utilizes Google Cloud libraries in Python, functioning similarly to APIs.
+
+## Diagram of the ETL Process
+
+Below is a simple diagram illustrating the ETL process flow:
+
 
