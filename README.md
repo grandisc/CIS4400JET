@@ -7,7 +7,7 @@ This analysis focuses on potential conflicts of interest arising when doctors ho
 <img width="865" alt="MicrosoftTeams-image" src="https://github.com/grandisc/CIS4400JET/assets/71566775/bd3ce393-7bf9-4f36-b7b1-faeb9eca7cdd">
 
 ## Data Model
-(Insert or describe your data model here. Include details such as the structure of your database, the relationships between different data entities, and any key considerations that influenced the design of your data model.)
+![image](https://github.com/grandisc/CIS4400JET/assets/121201630/ac3610f3-fe35-437f-b231-cafc52a8bb1e)
 
 ## ETL Methodology
 Our ETL (Extract, Transform, Load) process, leveraging Google Cloud services, is divided into three primary steps:
@@ -21,7 +21,6 @@ Handled by `extract.py`, this script:
 The `transform_load.py` script:
 - Retrieves data from the Google Cloud Storage Bucket.
 - Cleans and transforms the data to align with our data model.
-  ![image](https://github.com/grandisc/CIS4400JET/assets/121201630/ac3610f3-fe35-437f-b231-cafc52a8bb1e)
 
 ### 3. Loading the Data
 Conducted through `transform_load.py`, this final step:
